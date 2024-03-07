@@ -1,0 +1,17 @@
+.preview .containerF {
+    position: relative;
+    height: 400px;
+    border:solid;
+}
+
+.preview img {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    max-width: 90%;
+}
+
+.blobImg {
+    z-index: -1;
+}

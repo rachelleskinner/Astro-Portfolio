@@ -1,4 +1,8 @@
-
+.navWhole{
+    position: absolute;
+}
+.navToggle{
+}
 .navitems{
     font-size: 3ch;
     font-family: "Cutive Mono", monospace;

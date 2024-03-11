@@ -4,6 +4,7 @@ import Navigation from '../components/navigation.astro'
 import Header from '../components/headerProgramWorks.astro'
 import Footer from '../components/footer.astro'
 import '../styles/programProjects.css';
+import '../styles/global.css';
 ---
 <!DOCTYPE html>
 <html lang="en">
@@ -25,6 +26,15 @@ import '../styles/programProjects.css';
 	<div class="container-fluid">
 		<!--Project 1 -->
 		<div class="row justify-content-center my-5">
+			<div class="col-12 col-md-4 align-self-center mx-auto">
+				<h1 class="previewHTxt">Employee Management System - HTML & PHP Form</h1>
+				<p class="previewPTxt">This employee management system project features my database communication and server-side web development skills. This form website uses languages like PHP, HTML, and MySQL while using tools like PHPMyAdmin and PHPMailer hosted through Coastal Carolina University’s research server.</p>
+				<!--Button-->
+				<div class="d-grid gap-2 col-md-8 mx-auto">
+					<a class="btn btn-outline-primary button" href="https://ccuresearch.coastal.edu/rskinner/csci303fa23/" target="_blank">View Live Site</a>
+				</div>
+				<!--Button END-->
+			</div>
 			<div class="mt-10 col-12 col-md-7 mb-md-0">
 				<!--Project Preview Img -->
 				<div class="preview">
@@ -35,21 +45,12 @@ import '../styles/programProjects.css';
 				</div>
 				<!--Project Preview Img END-->
 			</div>
-			<div class="col-12 col-md-4">
-				<h1 class="previewHTxt">Employee Management System</h1>
-				<p class="previewPTxt">This employee management system project features my database communication and server-side web development skills. This form website uses languages like PHP, HTML, and MySQL while using tools like PHPMyAdmin and PHPMailer hosted through Coastal Carolina University’s research server.</p>
-				<!--Button-->
-				<div class="d-grid gap-2 col-md-8 mx-auto">
-					<a class="btn btn-outline-primary button" href="https://ccuresearch.coastal.edu/rskinner/csci303fa23/" target="_blank">View Live Site Here</a>
-				</div>
-				<!--Button END-->
-			</div>
 		</div>
 		<!--Project 1 END -->
 
 		<!--Project 2 -->
 		<div class="row justify-content-center">
-			<div class="col-12 mt-10 col-md-7 mb-md-0 ">
+			<div class="col-12 mt-10 col-md-7 mb-md-0">
 				<!--Project Preview Img -->
 				<div class="preview">
 				<div class="containerImg d-flex justify-content-center align-items-center">
@@ -59,18 +60,44 @@ import '../styles/programProjects.css';
 				</div>
 				<!--Project Preview Img END-->
 			</div>
-			<div class="col-12 col-md-4">
-				<h1 class="previewHTxt">Cluster B</h1>
-				<p class="previewPTxt">Cluster B is an interactive fiction using personal experiences to convey a personal expression of my mental health while raising awareness of personality disorders. Using Inform 7, it takes place inside a brain while the player explores certain experiences in three different rooms while talking to close ones.</p>
+			<div class="col-12 col-md-4 align-self-center mx-auto">
+				<h1 class="previewHTxt">Cluster B - Interactive Fiction</h1>
+				<p class="previewPTxt">Cluster B is an interactive fiction using personal experiences to convey a personal expression of my mental health while raising awareness for personality disorders. Using Inform 7, it takes place inside a brain while the player explores certain experiences in three different rooms while talking to close ones.</p>
 				<!--Button-->
 				<div class="d-grid gap-2 col-md-8 mx-auto">
-					<a class="btn btn-outline-primary button" href="/projectFiles/Cluster-B.gblorb" download>Download Gblorb File Here</a>
+					<a class="btn btn-outline-primary button" href="/projectFiles/Cluster-B.gblorb" download>Download Gblorb File</a>
 					<p class="previewPTxt text-center">(Requires Z-Code interpreter)</p>
 					<!--in-browser z-code interpreter: https://iplayif.com/ -->
 				</div>
 				<!--Button END-->
 			</div>
 		</div>
+		<!--Project 2 END -->
+
+		<!--Project 3 -->
+		<div class="row justify-content-center my-5">
+			<div class="col-12 col-md-4 align-self-center mx-auto">
+				<h1 class="previewHTxt">Baby Egg Hunt - Unity</h1>
+				<p class="previewPTxt">Baby Egg Hunt is a simplistic game debuting my 3rd-person control and C#/C++ skills using Unity’s input system and trigger actions with free low-poly assets. The player can control the parent egg using a keyboard and mouse or a controller to move around a small map to find their 12 baby eggs and successfully return them home to their carton.</p>
+				<!--Button-->
+				<div class="d-grid gap-2 col-md-8 mx-auto">
+					<a class="btn btn-outline-primary button" href="/projectFiles/BabyEggHuntWindows.exe" download>Download Windows Build</a>
+					<a class="btn btn-outline-primary button" href="/projectFiles/BabyEggHuntMac.zip" download>Download Mac Build</a>
+				</div>
+				<!--Button END-->
+			</div>
+			<div class="mt-10 col-12 col-md-7 mb-md-0">
+				<!--Project Preview Img -->
+				<div class="preview">
+				<div class="containerImg d-flex justify-content-center align-items-center">
+					<img src="/babyEggHuntPreview.gif" class="img-fluid previewGif" width="500" alt="GIF Img of Baby Egg Hunt Unity Project Preview">
+					<img src="/blob3.png" class="img-fluid blobImg" width="550" alt="Blob Graphic Background Frame for Project Preview">
+				</div>
+				</div>
+				<!--Project Preview Img END-->
+			</div>
+		</div>
+		<!--Project 3 END -->
 	</div>
 	<br>
 	<Footer />

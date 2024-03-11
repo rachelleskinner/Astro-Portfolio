@@ -1,7 +1,7 @@
 .preview .containerImg {
     position: relative;
     height: 550px;
-    border:solid;
+    /*border:solid;*/
 }
 .preview img {
     position: absolute;

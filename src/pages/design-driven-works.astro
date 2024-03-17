@@ -1,0 +1,105 @@
+---
+import 'bootstrap/dist/css/bootstrap.css'
+import Navigation from '../components/navigation.astro'
+import Header from '../components/headerDesignWorks.astro'
+import Footer from '../components/footer.astro'
+import '../styles/designProjects.css';
+import '../styles/global.css';
+---
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8" />
+		<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<meta name="generator" content={Astro.generator} />
+		<title>Rachell Skinner - Design-Driven Works</title>
+		<!--Bootstrap Stylesheet -->
+		<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+	</head>
+	<body>
+	<header>
+		<Navigation />
+        <Header />
+	</header>
+    <br>
+    <div class="container-fluid">
+        <!--Project 1 -->
+		<div class="row justify-content-center my-5">
+			<div class="col-12 col-md-4 align-self-center mx-auto">
+				<h1 class="previewHTxt">CSCC Power of One - Bi-fold Brochure & Logo</h1>
+				<p class="previewPTxt">Made for Coastal Samaritan Counseling Center in Myrtle Beach, SC for their newly-launched monthly giving program, the Power of One. This print design features a bi-fold brochure promoting the program including a Power of One logo design. It details my marketing design and logo creation skills using Adobe Photoshop, Illustrator, and InDesign focused on non-profit donations with a professional, sleek design using a pre-existing design theme.</p>
+				<!--Button-->
+				<div class="d-grid gap-2 col-md-8 mx-auto">
+					<a class="btn btn-outline-primary button" href="/projectFiles/PowerOfOneBifold.pdf" download>Download PDF Brochure</a>
+                    <a class="btn btn-outline-primary button" href="/projectFiles/PowerOfOneLogo.png" download>Download PNG Logo</a>
+				</div>
+				<!--Button END-->
+			</div>
+			<div class="mt-10 col-12 col-md-7 mb-md-0">
+				<!--Project Preview Img -->
+				<div class="preview">
+				<div class="containerImg d-flex justify-content-center align-items-center">
+					<img src="/powerOfOneBifoldLogoPreview.gif" class="img-fluid" width="350" alt="GIF Img of Working Chants ArcGIS Story Map Project Preview">
+					<img src="/blob7.png" class="img-fluid blobImg" width="550">
+				</div>
+				</div>
+				<!--Project Preview Img END-->
+			</div>
+		</div>
+		<!--Project 1 END -->
+
+		<!--Project 2 -->
+		<div class="row justify-content-center">
+			<div class="col-12 mt-10 col-md-7 mb-md-0 mb-sm-3">
+				<!--Project Preview Img -->
+				<div class="preview">
+				<div class="containerImg d-flex justify-content-center align-items-center">
+					<img src="/everythingIsOKPreview.gif" class="img-fluid" width="700" alt="GIF Img of Everything is OK (A Digital Story Critique) Presentation Preview">
+					<img src="/blob8.png" class="img-fluid blobImg" width="650" >
+				</div>
+				</div>
+				<!--Project Preview Img END-->
+			</div>
+			<div class="col-12 col-md-4 align-self-center mx-auto">
+				<h1 class="previewHTxt">Everything is OK (A Digital Story Critique) - Presentation</h1>
+				<p class="previewPTxt">Everything is OK is a digital story critique on Nathalie Lawhead’s digital interactive zine, Everything is Going to be OK. Created in Canva with moving parts and early operating system themes to mimic Lawhead’s work including various media like videos and images to convey the zine’s main takeaways, appreciations, themes, and critique improvements detailing the non-linear collection of authentic struggles.</p>
+				<!--Button-->
+				<div class="d-grid gap-2 col-md-8 mx-auto">
+					<a class="btn btn-outline-primary button" href="https://www.canva.com/design/DAFd1kDI71E/iuQJpfcex5zL3AEZWD7Psg/edit?utm_content=DAFd1kDI71E&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton" target="_blank" download>View Presentation</a>
+					<!--in-browser z-code interpreter: https://iplayif.com/ -->
+				</div>
+				<!--Button END-->
+			</div>
+		</div>
+		<!--Project 2 END -->
+
+        <!--Project 3 -->
+		<div class="row justify-content-center my-5">
+			<div class="col-12 col-md-4 align-self-center mx-auto mb-sm-4">
+				<h1 class="previewHTxt">Small Businesses on Instagram - Instagram Carousel</h1>
+				<p class="previewPTxt">Small Businesses on Instagram explores how small businesses use certain strategies like trends, product showcasing, post types, and shop updates to gain shop exposure to extend their business outreach, specifically on the popular social media app, Instagram. Created in Canva as an Instagram Carousel depicting a playful social media design with graphics, videos, and Instagram statistics.</p>
+				<!--Button-->
+				<div class="d-grid gap-2 col-md-8 mx-auto">
+					<a class="btn btn-outline-primary button" href="https://www.canva.com/design/DAFgwU6y0FM/JXplrh0GW8qdIGp_IyV28g/edit?utm_content=DAFgwU6y0FM&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton" target="_blank">View Instagram Carousel</a>
+				</div>
+				<!--Button END-->
+			</div>
+			<div class="mt-10 col-12 col-md-7 mb-md-0">
+				<!--Project Preview Img -->
+				<div class="preview">
+				<div class="containerImg d-flex justify-content-center align-items-center">
+					<img src="/smallBuisnessesInstaPreview.gif" class="img-fluid" width="400" alt="GIF Img of Small Businesses on Instagram Instagram Carousel Project Preview">
+					<img src="/blob9.png" class="img-fluid blobImg" width="650">
+				</div>
+				</div>
+				<!--Project Preview Img END-->
+			</div>
+		</div>
+		<!--Project 3 END -->
+    </div>
+    <br>
+    <Footer />
+	</body>
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+</html>

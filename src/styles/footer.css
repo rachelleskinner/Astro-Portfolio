@@ -1,7 +1,7 @@
 .footerContainer{
     position:relative;
 }
-.socialIcon{
+.icon{
     position: absolute;
     z-index: 1;
     width: 5%;
@@ -9,12 +9,13 @@
 }
 .instaIcon{
     bottom: 10%;
-    right: 5%;
+    right: 12%;
     margin: auto;
 }
-.pinIcon{
-    bottom: 10%;
-    right: 12%;
+.emailIcon{
+    bottom: 8.5%;
+    right: 5%;
+    width: 6%;
     margin: auto;
 }
 .disclaimerText{

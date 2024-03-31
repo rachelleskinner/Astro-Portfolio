@@ -1,6 +1,5 @@
 ---
 import 'bootstrap/dist/css/bootstrap.css'
-import Navigation from '../components/navigation.astro'
 import Header from '../components/headerMain.astro'
 import Footer from '../components/footer.astro'
 import '../styles/global.css';
@@ -23,41 +22,114 @@ import '../styles/index.css';
 		<Header />
 	</header>
 	<br>
-
 	<div class="container-fluid">
-		<div class="row">
-			<!-- Button ONE -->
-			<div class="col-md-6 col-lg-3 mb-5 blobButton hvr-wobble-vertical">
-				<a href="/about">
-					<img src="/aboutButton.png" class="img-fluid" width="500">
-				</a>
+		<h2 class="featuredWorksText">
+			<a href="#featuredProjects">Check out my Featured Works<img class="icon" src="/arrow-down-short.svg" alt="Down Arrow Icon SVG">
+			</a>
+		</h2>
+		<!--Feature 1 -->
+		<div class="row justify-content-center my-5" id="featuredProjects">
+			<div class="col-12 col-md-4 align-self-center mx-auto">
+				<h1 class="previewHTxt">Baby Egg Hunt - Unity</h1>
+				<p class="previewPTxt">Baby Egg Hunt is a simplistic game debuting my 3rd-person control and C#/C++ skills using Unity’s input system and trigger actions with free low-poly assets. The player can control the parent egg using a keyboard and mouse or a controller to move around a small map to find their 12 baby eggs and successfully return them home to their carton.</p>
+				<!--Button-->
+				<div class="d-grid gap-2 col-md-8 mx-auto">
+					<a class="btn btn-outline-primary button" href="/projectFiles/BabyEggHuntWindows.exe" download>Download Windows Build</a>
+					<a class="btn btn-outline-primary button" href="/projectFiles/BabyEggHuntMac.zip" download>Download Mac Build</a>
+				</div>
+				<!--Button END-->
 			</div>
-			<!-- Button ONE END -->
-			<!-- Button TWO -->
-			<div class="col-md-6 col-lg-3 mb-5 blobButton hvr-wobble-vertical">
-				<a href="/programming-works">
-					<img src="/programButton.png" class="img-fluid" width="500">
-				</a>
+			<div class="mt-10 col-12 col-md-7 mb-md-0">
+				<!--Project Preview Img -->
+				<div class="preview">
+				<div class="containerImg d-flex justify-content-center align-items-center">
+					<img src="/babyEggHuntPreview.gif" class="img-fluid" width="500" alt="GIF Img of Baby Egg Hunt Unity Project Preview">
+					<img src="/blob10.png" class="img-fluid blobImg" width="550" >
+				</div>
+				</div>
+				<!--Project Preview Img END-->
 			</div>
-			<!-- Button TWO END -->
-			<!-- Button THREE -->
-			<div class="col-md-6 col-lg-3 mb-5 blobButton hvr-wobble-vertical">
-				<a href="/data-driven-works">
-					<img src="/dataButton.png" class="img-fluid" width="500">
-				</a>
-			</div>
-			<!-- Button THREE END -->
-			<!-- Button FOUR -->
-			<div class="col-md-6 col-lg-3 mb-5 blobButton hvr-wobble-vertical">
-				<a href="/design-driven-works">
-					<img src="/designButton.png" class="img-fluid" width="500">
-				</a>
-			</div>
-			<!-- Button FOUR END -->
 		</div>
+		<!--Feature 1 END -->
+
+		<!--Feature 2 -->
+		<div class="row justify-content-center my-5">
+			<div class="mt-10 col-12 col-md-7 mb-md-0">
+				<!--Project Preview Img -->
+				<div class="preview">
+				<div class="containerImg d-flex justify-content-center align-items-center">
+					<img src="/storymapWorkingChantsPreview.gif" class="img-fluid" alt="GIF Img of Working Chants ArcGIS Story Map Project Preview">
+					<img src="/blob11.png" class="img-fluid blobImg" width="550">
+				</div>
+				</div>
+				<!--Project Preview Img END-->
+			</div>
+			<div class="col-12 col-md-4 align-self-center mx-auto">
+				<h1 class="previewHTxt">Working Chants - ArcGIS Story Map</h1>
+				<p class="previewPTxt">Working Chants explores Coastal Carolina University’s student job landscape using personally obtained data from 42 survey respondents. Accompanied by data tools like Voyant Tools and Tableau for visual graphics portraying the data found from student workers’ experiences. These findings resulted in an overall satisfactory working experience depending on the department, pay, and management presented using ArcGIS story maps.</p>
+				<!--Button-->
+				<div class="d-grid gap-2 col-md-8 mx-auto">
+					<a class="btn btn-outline-primary button" href="https://storymaps.com/stories/fb691f830d5941ca86a7328cf3b988ed" target="_blank">View Live Site</a>
+				</div>
+				<!--Button END-->
+			</div>
+		</div>
+		<!--Feature 2 END -->
+
+		<!--Feature 3 -->
+		<div class="row justify-content-center my-5">
+			<div class="col-12 col-md-4 align-self-center mx-auto">
+				<h1 class="previewHTxt">CSCC Power of One - Bi-fold Brochure & Logo</h1>
+				<p class="previewPTxt">Made for Coastal Samaritan Counseling Center in Myrtle Beach, SC for their newly-launched monthly giving program, the Power of One. This print design features a bi-fold brochure promoting the program including a Power of One logo design. It details my marketing design and logo creation skills using Adobe Photoshop, Illustrator, and InDesign focused on non-profit donations with a professional, sleek design using a pre-existing design theme.</p>
+				<!--Button-->
+				<div class="d-grid gap-2 col-md-8 mx-auto">
+					<a class="btn btn-outline-primary button" href="/projectFiles/PowerOfOneBifold.pdf" download>Download PDF Brochure</a>
+                    <a class="btn btn-outline-primary button" href="/projectFiles/PowerOfOneLogo.png" download>Download PNG Logo</a>
+				</div>
+				<!--Button END-->
+			</div>
+			<div class="mt-10 col-12 col-md-7 mb-md-0">
+				<!--Project Preview Img -->
+				<div class="preview">
+				<div class="containerImg d-flex justify-content-center align-items-center">
+					<img src="/powerOfOneBifoldLogoPreview.gif" class="img-fluid" width="350" alt="GIF Img of Working Chants ArcGIS Story Map Project Preview">
+					<img src="/blob12.png" class="img-fluid blobImg" width="550">
+				</div>
+				</div>
+				<!--Project Preview Img END-->
+			</div>
+		</div>
+		<!--Feature 3 END -->
+
 	</div>
+
 	<br>
 	<Footer />
 	</body>
 	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
 </html>
+
+
+<!--
+	<div class="row">
+			<div class="col-md-6 col-lg-3 m-5 hvr-wobble-vertical">
+				<a class="navButtons" href="/about">About</a>
+				<a href="/about">
+					<img src="/aboutButton.png" class="img-fluid" width="500">
+				</a>
+			</div>
+			<div class="col-md-6 col-lg-3 m-5 blobButton hvr-wobble-vertical">
+				<a class="navButtons" href="/programming-works">Programming Works</a>
+			</div>
+			<div class="col-md-6 col-lg-3 mb-5 blobButton hvr-wobble-vertical">
+				<a href="/data-driven-works">
+					<img src="/dataButton.png" class="img-fluid" width="500">
+				</a>
+			</div>
+			<div class="col-md-6 col-lg-3 mb-5 blobButton hvr-wobble-vertical">
+				<a href="/design-driven-works">
+					<img src="/designButton.png" class="img-fluid" width="500">
+				</a>
+			</div>
+		</div>
+ -->

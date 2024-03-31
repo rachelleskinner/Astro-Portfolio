@@ -1,25 +1,20 @@
 .footerContainer{
     position:relative;
 }
-.icon{
-    position: absolute;
-    z-index: 1;
-    width: 5%;
-    height: auto;
-}
-.instaIcon{
-    bottom: 10%;
-    right: 12%;
-    margin: auto;
-}
 .emailIcon{
-    bottom: 8.5%;
-    right: 5%;
-    width: 6%;
-    margin: auto;
-}
-.disclaimerText{
+    z-index: 1;
+    height: auto;
+    width: 10%;
+    display: inline;
+    /*
     position: absolute;
+    margin: auto;
+    bottom: 8.5%;
+    right: 5%;*/
+}
+.footerText{
+    position: absolute;
+    width: 40%;
     z-index: 1;
     margin: auto;
     font-family: "Courier Prime", monospace;

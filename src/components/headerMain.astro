@@ -1,17 +1,53 @@
 ---
 import '../styles/header.css';
-import Navigation from '../components/navigation.astro'
 ---
 <!--Fonts -->
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Courier+Prime:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Cutive+Mono&display=swap" rel="stylesheet">
 
 <div class="headContainer">
     <div class="textContainer">
         <h1 class="typeText pTypeOne">Hi, my name is</h1>
-        <img class="typeText mainType" src="https://readme-typing-svg.herokuapp.com?font=Courier+Prime&size=80&duration=3000&pause=6000&color=2F160B&vCenter=true&random=false&width=740&height=80&lines=Rachell+Skinner" alt="Typing SVG" />
+        <img class="typeText mainType" src="https://readme-typing-svg.herokuapp.com?font=Courier+Prime&size=80&duration=3000&pause=6000&color=2F160B&repeat=false&vCenter=true&random=false&width=740&height=80&lines=Rachell+Skinner" alt="Typing SVG" />
+        <img class="typeText mainTypeTwo" src="https://readme-typing-svg.herokuapp.com?font=Courier+Prime&size=40&duration=3000&pause=6000&color=2F160B&vCenter=true&random=false&width=900&height=80&lines=Programmer%2C+Designer%2C+%26+Developer" alt="Typing SVG" />
     </div>
+
+<!-- NavBar START-->
+<nav class="navbar sticky-top navbar-expand-lg navBarOverlay">
+    <div class="container-fluid">
+      <!-- <a class="navbar-brand" href=""><img src="https://readme-typing-svg.herokuapp.com?font=Courier+Prime&size=40&duration=7000&pause=4000&color=2F160B&vCenter=true&random=false&width=370&height=60&lines=Rachell+Skinner" alt="Typing SVG" /></a>
+         typing site: https://readme-typing-svg.herokuapp.com/demo/-->
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav me-auto">
+          <li class="nav-item navitems ">
+            <a class="nav-link activePage" aria-current="page" href="/#">Home</a>
+          </li>
+          <li class="nav-item navitems">
+            <a class="nav-link" href="/about">About</a>
+          </li>
+          <li class="nav-item dropdown navitems">
+            <a class="nav-link dropdown-toggle" href="/" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Projects</a>
+            <ul class="dropdown-menu wholeDropdown">
+              <li><a class="dropdown-item dropdownitems" href="/programming-works">Programming Works</a></li>
+              <li><a class="dropdown-item dropdownitems" href="/data-driven-works">Data-Driven Works</a></li>
+              <li><a class="dropdown-item dropdownitems" href="/design-driven-works">Design-Driven Works</a></li>
+            </ul>
+          </li>
+          <li class="nav-item navitems">
+            <a class="nav-link" href="mailto:theSER8@hotmail.com">Contact</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+<!--NavBar END -->
+
 <!--SVG -->
 <svg width="100%" height="100%" id="svg" viewBox="0 0 1440 690" xmlns="http://www.w3.org/2000/svg" class="transition duration-300 ease-in-out delay-150">
     <style>

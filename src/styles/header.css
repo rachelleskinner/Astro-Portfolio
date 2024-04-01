@@ -37,15 +37,28 @@
     font-size: 3vw;
     text-align: center;
 }
-.navbar-collapse{
+/*  .collapse{
     position:relative;
+    display:block;
     background-color: #FBF3E7;
     padding: 10px;
     border-radius:10px;
 }
-/* rgba(0,0,0,0.0) */
+rgba(0,0,0,0.0) */
 .navBarOverlay{
-    position:absolute;
+}
+@media (max-width: 992px) {
+    .navbar {
+        position:absolute;
+        background-color: #FBF3E7; /* Set white background when collapsed */
+        border-radius: 10px;
+    }
+}
+
+@media (min-width: 992px) {
+    .navbar {
+        position:absolute; /* Set transparent background when expanded */
+    }
 }
 .navitems{
     font-size: 3ch;

@@ -47,15 +47,18 @@
 rgba(0,0,0,0.0) */
 @media (max-width: 992px) {
     .navbar {
-        position:absolute;
-        background-color: #FBF3E7; /* Set white background when collapsed */
-        border-radius: 10px;
+        position: absolute;
+    }
+    .navbar-collapse{
+        background-color: #FBF3E7;
+        padding: 10px;
+        border-radius: 8px;
     }
 }
 
 @media (min-width: 992px) {
     .navbar {
-        position:absolute; /* Set transparent background when expanded */
+        position:absolute; 
     }
 }
 .navitems{

@@ -45,8 +45,6 @@
     border-radius:10px;
 }
 rgba(0,0,0,0.0) */
-.navBarOverlay{
-}
 @media (max-width: 992px) {
     .navbar {
         position:absolute;

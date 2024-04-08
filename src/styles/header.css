@@ -71,6 +71,13 @@ rgba(0,0,0,0.0) */
 .navitems:hover{
     text-decoration: underline;
 }
+.dropdownContainer{
+    font-size: 3ch;
+    font-family: "Cutive Mono", monospace;
+    font-weight: 400;
+    font-style: normal;
+    color: #2F160B;
+}
 .dropdownitems{
     font-size: 25px;
 }

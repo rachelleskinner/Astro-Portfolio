@@ -1,3 +1,19 @@
 body{
     background-color: #FBF3E7;
 }
+.linkContainer {
+    display: flex;
+    justify-content: space-between;
+  }
+.nextProjectsLinks{
+    font-family: "Courier Prime", monospace;
+    font-weight: 700;
+    font-size: 2.5ch;
+  }
+  a, .nextProjectsLinks{
+    text-decoration: none;
+    color: #2F160B;
+  }
+  .icon{
+    width: 3ch;
+  }

@@ -12,3 +12,9 @@
     font-size: 4ch;
     color: #2F160B;
 }
+@media (max-width: 991.98px) {
+    .custom-sm-image {
+        width: 70%; 
+        height: auto; 
+    }
+}

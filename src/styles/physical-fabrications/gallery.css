@@ -5,18 +5,22 @@
     }
 }
 .titleText{
-    font-family: "Baloo 2", sans-serif;
-    font-optical-sizing: auto;
+    color: #213E53;
     font-weight: 600;
     font-size: 3ch;
     text-align: center;
 }
-.titleText, a{
-    text-decoration: none;
+.subHeaderText{
+    font-weight: 600;
+    font-size: 3ch;
+    color: #597487;
 }
-a:hover{
-    cursor: pointer;
-    border: inset;
-    border-radius: 10px;
-    border-color: #bfbfbf;
+@media (max-width: 995px) {
+    .subHeaderText{
+        font-size: 2ch;
+    }
+}
+.titleText, a{
+    color: #213E53;
+    text-decoration: none;
 }

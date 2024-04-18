@@ -2,7 +2,7 @@
 import { Image } from 'astro:assets';
 import 'bootstrap/dist/css/bootstrap.css'
 import '../../styles/physical-fabrications/global.css';
-import '../../styles/physical-fabrications/gallery.css';
+import '../../styles/physical-fabrications/project.css';
 ---
 <!DOCTYPE html>
 <html lang="en">
@@ -30,53 +30,80 @@ import '../../styles/physical-fabrications/gallery.css';
         <br>
 		<br>
 
+
 		<div class="container">
+			<!--Physical Fabrication -->
 			<div class="row">
-				<div class="col-md-6">
-					<h2>Text Column</h2>
-					<p>Text content goes here...</p>
-				</div>
-				<div class="col-md-6">
-					<!-- Carousel column -->
-					<h2>Carousel Column</h2>
-					<div id="myCarousel" class="carousel slide">
-						<div class="carousel-inner">
-							<div class="carousel-item active">
-								<Image src="/fabricationImgs/p2-collage/FullViewScattered.png" class="d-block w-75 img-fluid mx-auto" width="1800" height="2200" alt="..."></Image>
-							</div>
-							<div class="carousel-item">
-								<Image src="/fabricationImgs/p2-collage/FullViewTogether.png" class="d-block w-75 img-fluid mx-auto" width="1800" height="2200" alt="..."></Image>
-							</div>
-							<div class="carousel-item">
-								<Image src="/fabricationImgs/p2-collage/TopDetail.png" class="d-block w-75 img-fluid mx-auto" width="1800" height="2200" alt="..."></Image>
-							</div>
-							<div class="carousel-item">
-								<Image src="/fabricationImgs/p2-collage/BottomDetail.png" class="d-block w-75 img-fluid mx-auto" width="1800" height="2200" alt="..."></Image>
-							</div>
-							<div class="carousel-item">
-								<Image src="/fabricationImgs/p2-collage/LeftDetail.png" class="d-block w-75 img-fluid mx-auto" width="1800" height="2200" alt="..."></Image>
-							</div>
-							<div class="carousel-item">
-								<Image src="/fabricationImgs/p2-collage/RightDetail.png" class="d-block w-75 img-fluid mx-auto" width="1800" height="2200" alt="..."></Image>
-							</div>
-							<div class="carousel-item">
-								<video class="d-block mx-auto w-75 img-fluid" width="1800" height="2200" controls>
-									<source src="/fabricationImgs/p2-collage/collageMovement.mp4" type="video/mp4">
-									Your browser does not support the video tag.
-								</video>
-							</div>
+
+			<!-- Carousel-->
+			<div class="col-md-6">
+				<div id="myCarousel" class="carousel slide">
+					<div class="carousel-inner">
+						<div class="carousel-item active">
+							<Image src="/fabricationImgs/p2-collage/FullViewScattered.png" class="d-block w-75 img-fluid mx-auto" width="400" height="500" alt="..."></Image>
 						</div>
-						<button class="carousel-control-prev" type="button" data-bs-target="#myCarousel" data-bs-slide="prev">
-							<span class="carousel-control-prev-icon" aria-hidden="true"></span>
-							<span class="visually-hidden">Previous</span>
-						</button>
-						<button class="carousel-control-next" type="button" data-bs-target="#myCarousel" data-bs-slide="next">
-							<span class="carousel-control-next-icon" aria-hidden="true"></span>
-							<span class="visually-hidden">Next</span>
-						</button>
+						<div class="carousel-item">
+							<Image src="/fabricationImgs/p2-collage/FullViewTogether.png" class="d-block w-75 img-fluid mx-auto" width="400" height="500" alt="..."></Image>
+						</div>
+						<div class="carousel-item">
+							<Image src="/fabricationImgs/p2-collage/TopDetail.png" class="d-block w-75 img-fluid mx-auto" width="400" height="500" alt="..."></Image>
+						</div>
+						<div class="carousel-item">
+							<Image src="/fabricationImgs/p2-collage/BottomDetail.png" class="d-block w-75 img-fluid mx-auto" width="400" height="500" alt="..."></Image>
+						</div>
+						<div class="carousel-item">
+							<Image src="/fabricationImgs/p2-collage/LeftDetail.png" class="d-block w-75 img-fluid mx-auto" width="400" height="500" alt="..."></Image>
+						</div>
+						<div class="carousel-item">
+							<Image src="/fabricationImgs/p2-collage/RightDetail.png" class="d-block w-75 img-fluid mx-auto" width="400" height="500" alt="..."></Image>
+						</div>
+						<div class="carousel-item">
+							<video class="d-block mx-auto w-75 img-fluid" width="400" height="500" controls>
+								<source src="/fabricationImgs/p2-collage/collageMovement.mp4" type="video/mp4">
+								Your browser does not support the video tag.
+							</video>
+						</div>
 					</div>
+					<button class="carousel-control-prev" type="button" data-bs-target="#myCarousel" data-bs-slide="prev">
+						<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+						<span class="visually-hidden">Previous</span>
+					</button>
+					<button class="carousel-control-next" type="button" data-bs-target="#myCarousel" data-bs-slide="next">
+						<span class="carousel-control-next-icon" aria-hidden="true"></span>
+						<span class="visually-hidden">Next</span>
+					</button>
 				</div>
 			</div>
+			<!--Physical Fabrication Details -->
+				<div class="col-md-6">
+					<h2 class="subTitle"></h2>
+					<p class="pText"><b>Title: </b></p>
+					<br>
+					<p class="pText"><b>Medium: </b>Multimedia found objects on used cardboard. LP Vinyl Record, Paper bag, Magazine scraps, Construction paper, Additional cardboard pieces, Book page, Clay, and White string.</p>
+					<br>
+					<p class="pText"><b>Dimensions: </b></p>
+					<br>
+					<p class="pText"><b>Keywords: </b>Connection, Authenticity, Music, Counterculture</p>
+					<br>
+					<p class="pText"><b>About: </b></p>
+				</div>
+
+			</div>
+
+			<!--AI Fabrication -->
+			<div class="row my-5">
+				<!--AI Fabrication Details -->
+				<div class="col-md-6">
+					<h2>Text Column</h2>
+					<p class="pText">Text content goes here...</p>
+				</div>
+
+				<!-- AI Ouput Image-->
+				<div class="col-md-6">
+					<Image src="/fabricationImgs/p2-collage/AIOutputCollageKeywords.png" class="img-fluid" width="600" height="600" alt=""></Image>
+				</div>
+			</div>
+
 			<div class="row">
 				<div class="col-md-12">
 					<!-- Single column for text -->
@@ -86,7 +113,36 @@ import '../../styles/physical-fabrications/gallery.css';
 			</div>
 		</div>
 
-        <footer></footer>
+		<br>
+		<br>
+		<br>
+        <footer>
+			<div class="container">
+				<div class="row">
+					<div class="col-md-3">
+						<a href="/physical-fabrications/project-gallery" class="d-flex align-items-center">
+							<div class="w-50 me-3">
+								<svg xmlns="http://www.w3.org/2000/svg" fill="#000" viewBox="0 0 8 8">
+									<path d="M5.25 0l-4 4 4 4 1.5-1.5-2.5-2.5 2.5-2.5-1.5-1.5z"/>
+								</svg>
+							</div>
+							<div>
+								<Image src="/fabricationImgs/fontHeaders/home.png" class="img-fluid" width="700" height="200" alt=""></Image>
+							</div>
+						<!--
+						<svg xmlns="http://www.w3.org/2000/svg" fill="#000" viewBox="0 0 8 8">
+							<path d="M2.75 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z"/>
+						</svg>
+						-->
+						</a>
+					</div>
+				</div>
+			</div>
+		</footer>
+		<br>
+		<br>
+		<br>
+
     </body>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
 </html>

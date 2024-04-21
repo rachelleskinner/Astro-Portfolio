@@ -11,7 +11,7 @@
     color: #2F160B;
 }
 .mainType{
-    top: 35%;
+    top: 33%;
     left: 10%;
     width: 80%;
     height: auto;
@@ -37,14 +37,6 @@
     font-size: 3vw;
     text-align: center;
 }
-/*  .collapse{
-    position:relative;
-    display:block;
-    background-color: #FBF3E7;
-    padding: 10px;
-    border-radius:10px;
-}
-rgba(0,0,0,0.0) */
 @media (max-width: 992px) {
     .navbar {
         position: absolute;

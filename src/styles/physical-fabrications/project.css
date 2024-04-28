@@ -25,3 +25,11 @@
         width: 25%;
     }
  }
+.inlineLinks{
+    text-decoration: underline;
+    color: #213E53;
+}
+.inlineLinks:hover{
+    color: #597487;
+    border: none;
+}
